@@ -1,0 +1,89 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.card{
+    height:300px;
+    width:350px;
+    border-color: black;
+    border-style:solid;
+    border-width: 5px;
+    background-color:brown;
+    box-shadow: 10px 10px 5px grey;
+    position: absolute;
+    background-image:url('https://thumbs.dreamstime.com/b/ghost-face-full-revenge-waiting-day-killer-350617514.jpg?w=576');
+    background-size: cover;
+    
+}
+.ghost1{
+    height:300px;
+    width:350px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    background-color: brown;
+    box-shadow: 10px 10px 5px grey;
+    background-image:url('https://scontent.fhyd10-1.fna.fbcdn.net/v/t39.30808-6/540464119_24605048645795502_3576672596616144186_n.jpg?stp=dst-jpg_tt6&cstp=mx1024x1024&ctp=p526x296&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=JHbCL9M2I9wQ7kNvwGs4DDM&_nc_oc=AdoOFkCQSiIf8_SafUPTxGktZ-0xrvos9VTRHv3-E2NCz-hIFhRIGot9IfxSw5ASHUA&_nc_zt=23&_nc_ht=scontent.fhyd10-1.fna&_nc_gid=hFNJRxa0BXVGnMWmxfs2Vg&_nc_ss=7b289&oh=00_AQLPBTX6Q5o4GvxtMfC3-Di-aIMpiokaUUzbnkN97J-d1w&oe=6AAF54DB');
+    background-size: cover;
+    position:absolute;
+    bottom: 1px;
+}
+.ghost2{
+    height: 300px;
+    width: 350px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    background-color: brown;
+    box-shadow: 10px 10px 5px grey;
+    background-image: url('https://as1.ftcdn.net/v2/jpg/01/67/30/40/1000_F_167304036_J62MC7FrBvA4zjzaEoqug492NuykrCQ0.jpg');
+    bottom: 20px;
+    right:20px;
+    position: absolute;
+    top: 1px;
+    background-size: cover;
+
+}
+.ghost3{
+    height: 300px;
+    width: 350px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    background-color: brown;
+    box-shadow: 10px 10px 5px grey;
+    background-image:url('https://st3.depositphotos.com/1268628/16117/i/450/depositphotos_161177692-stock-photo-scary-ghost-woman.jpg');
+
+    bottom: 2px;
+    position: absolute;
+    right: 20px;
+    background-size: cover;
+
+}
+.ghost4{
+     height: 300px;
+    width: 350px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    background-color: brown;
+    box-shadow: 10px 10px 5px grey;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO_I-bRRWvJQaQo2cEoW7EwZ94JWcAyuRDz0UCLefp4Z7JgUW7R3DM4Riu&s=10');
+    background-size: cover;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.heading{
+    color: rgb(14, 13, 78);
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 00;
+    font-style: oblique;
+    text-align: center;
+    position: absolute;
+    transform:translate(-50%);
+    left:50%
+}
